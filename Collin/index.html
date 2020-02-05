@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <image src="https://developer.gnome.org/gtk3/stable/headerbar.png" id="filler"></image>
+
+        <div class="container2">
+            
+            <div class="interact">
+                <button class="buttons">Your Text</button>
+                <div class="ui input error">
+                    <input type="text" placeholder="Your text..." id="yourtext">
+                  </div>
+            </div>
+            <div class="interact">
+                <button class="buttons">Language</button>
+                    <div class="ui basic floating dropdown button" id="language">
+                      <div class="text">This Page</div>
+                      <i class="dropdown icon"></i>
+                      <div class="menu">
+                        <div class="item">This Organization</div>
+                        <div class="item">Entire Site</div>
+                      </div>
+                    </div>
+                  </div>
+            </div> 
+            <div id="interact">
+                <button class="buttons" id="translate">Translate</button>
+            </div>
+            <!-- <div>
+                <p placeholder="Translation" id="response"></p>
+            </div> -->
+         </div>
+    </div>
+</body>
+</html>

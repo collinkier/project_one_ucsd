@@ -1,0 +1,58 @@
+.buttons{
+    position: relative;
+    background-color: slategrey;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+#filler{
+    width: 75%;
+    margin-left: 12.5%;
+    height: 300px;
+}
+
+#translate{
+    float: right;
+    margin-right: 50%;
+}
+
+#language{
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.interact{
+    width: 50%;
+    margin-left: 25%;
+    /* text-align: center; */
+}
+
+.container{
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    height: 100%;
+}
+
+body{
+    /* background-color: green; */
+}
+
+#interact{
+    background-color: white;
+}
+
+#yourtext{
+    position: relative;
+    margin-left: 30px;
+}
+
+#response{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
